@@ -1,0 +1,85 @@
+
+.section04__text {
+    text-align: center;
+}
+
+.section04__text--title {
+    font-size: 18px;
+    color: rgba(26, 183, 152, 255);
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 37px;
+}
+
+.section04__text--title::after{
+    content: '';
+    height: 1px;
+    width: 60px;
+    background-color: #babdc1;
+    display: inline-block;
+    margin-left: 24px;
+    vertical-align: middle;
+}
+
+.section04__text--title::before{
+    content: '';
+    height: 1px;
+    width: 60px;
+    background-color: #babdc1;
+    display: inline-block;
+    margin-right: 24px;
+    vertical-align: middle;
+}
+
+.section04__text--p {
+    font-size: 16pt;
+    color: rgba(6, 32, 51, 255);
+    margin-bottom: 51px;
+}
+
+
+
+
+
+
+
+
+
+.team__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.team04__cards--text {
+    font-size: 18px;
+    color: rgba(6, 32, 51, 255);
+    text-align: center;
+}
+
+.team04__cards--subtitle {
+    font-size: 13pt;
+    color: rgba(6, 32, 51, 255);
+    text-align: center;
+}
+
+.team04__cards--picture:hover > .team04__cards--text{
+    color: #70cab4;
+    cursor: pointer; 
+}
+
+.team04__cards--picture{
+    margin: auto;
+    display: block;
+    
+    
+}
+
+.team04__cards--hover {
+    display: none;
+}
+
+.card:hover>.team04__cards {
+    display: block;
+}
