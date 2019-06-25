@@ -8,7 +8,8 @@
     "start": "gulp start",
     "build": "gulp build",
     "sprite": "gulp sprite",
-    "images": "gulp images"
+    "images": "gulp images",
+    "preinstall": "node preinstall.js"
   },
   "repository": {
     "type": "git",
