@@ -1,0 +1,23 @@
+
+
+
+
+.section1__mobile {
+    position: relative;
+    height: 444px;
+}
+
+.section1__screen1 {
+    position: absolute;
+    right: 13%;
+    bottom: 0;
+    z-index: 500;
+    width: 232px;
+}
+
+.section1__screen2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 256px;
+}
